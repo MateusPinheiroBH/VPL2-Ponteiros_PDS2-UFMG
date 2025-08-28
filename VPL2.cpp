@@ -49,8 +49,9 @@ int main() {
 	cout << "p1->nome =" << p1 -> nome << endl; // item 9
 	cout << "(*p2).idade =" << (*p2).idade << endl; // item 10
 	
-	bool item11 = ComparaPonteiros(p1, p2);// item 11
-	TrueOrFalse(item11);// item 11
+	bool item11 = ComparaPonteiros(p1, p2);//	}
+	cout << "Comparando p1 == p2:";//			} item 11
+	TrueOrFalse(item11);//						}
 	
 	cin >> p2 -> salario;//																			}
 	cout << fixed << setprecision(2);//																} item 12
@@ -60,7 +61,7 @@ int main() {
 	
 	cin >> p1 -> idade;// item 14
 	
-	cout << "nova idade atrav�s de p2 -> " << p2 -> idade << endl;// item 15
+	cout << "nova idade através de p2 -> " << p2 -> idade << endl;// item 15
 	
 	cout << "Comparando p1 == p2: ";//			}
 	bool item16 = ComparaPonteiros(p1, p2);// 	} item 16
